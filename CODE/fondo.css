@@ -1,143 +1,130 @@
 
-  h1 {
-      color: rgb(7, 6, 0);
-      text-align: center;
-  }
+h1 {
+  color: rgb(7, 6, 0);
+  text-align: center;
+}
 
-  h2 {
-      color: rgb(0, 0, 0);
-      text-align: center;
-  }
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
-  hr {
-      color: rgb(0, 0, 0);
-      text-align: center;
-  }
+hr {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
-  table {
-      color: rgb(0, 0, 0);
-      text-align: center;
-      border-collapse: collapse;
-      width: 700%;
-      max-width: 400px;
-      margin: 0 auto;
-        }
-        
-        table th {
-          font-weight: bold;
-          text-align: left;
-          padding: 8px;
-        }
-        
-        table td {
-          border-bottom: 1px solid #472727;
-          padding: 8px;
-        }
-        
-        table h3 {
-          font-size: 24px;
-          margin-bottom: 16px;
-        }
-  
-      label {
-        color: rgb(0, 0, 0);
-         font-size: 24px;
-         text-align: center;
-         }
- 
-
-  hr {
-      border-color: rgb(49, 27, 27);
+table {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-collapse: collapse;
+  width: 700%;
+  max-width: 400px;
+  margin: 0 auto;
     }
-  
-  title {
-         font-size: 100px;
-      }
-
-  form {
-      text-align: center;
-  }
-  img{
-    display:block;
-    margin:auto
+    
+    table th {
+      font-weight: bold;
+      text-align: left;
+      padding: 8px;
     }
-           
-    .btn-grad {
-      background-image: linear-gradient(to right, #ED4264 0%, #FFEDBC  51%, #ED4264  100%);
-      margin: 10px;
-      padding: 15px 45px;
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: white;            
-      box-shadow: 0 0 20px #eee;
-      border-radius: 10px;
-      display: block;
+    
+    table td {
+      border-bottom: 1px solid #472727;
+      padding: 8px;
+    }
+    
+    table h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
     }
 
-    .btn-grad:hover {
-      background-position: right center; /* change the direction of the change here */
-      color: #fff;
-      text-decoration: none;
-    }
-  
+  label {
+    color: rgb(0, 0, 0);
+     font-size: 24px;
+     text-align: center;
+     }
+
+
+hr {
+  border-color: rgb(49, 27, 27);
+}
+
+title {
+     font-size: 100px;
+  }
+
+form {
+  text-align: center;
+}
+img{
+display:block;
+margin:auto
+}
+       
+
+.btn-grad:hover {
+  background-position: center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 article {
-  position: relative;
-  width: 250px;
-  transition: all .3s ease;
-  }
-  
-  article img:first-child {
-    box-shadow: 0 60px 60px -60px rgba(0, 30 , 255, 0.5);
-    border-radius: 4px;
-    object-fit: cover;
-    width: 100%;
-  }
+position: relative;
+width: 250px;
+transition: all .3s ease;
+}
 
-  article img:last-child {
-    position: absolute;
-    width: 200px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transform: translateY(25%);
-    transition: .3s ease;
-    opacity: 0;
-  }
+article img:first-child {
+box-shadow: 0 60px 60px -60px rgba(0, 30 , 255, 0.5);
+border-radius: 4px;
+object-fit: cover;
+width: 100%;
+
+}
+
+article img:last-child {
+position: absolute;
+width: 200px;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+transform: translateY(25%);
+transition: .3s ease;
+opacity: 0;
+}
 
 article:hover {
-  transform:
-    perspective(250px)
-    rotateX(10deg)
-    translateY(-5%) 
-  translateZ(0);
-  }
+transform:
+perspective(250px)
+rotateX(10deg)
+translateY(-5%) 
+translateZ(0);
+}
 article::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  background-image: 
+content: '';
+position: absolute;
+bottom: 0;
+height: 100%;
+width: 100%;
+background-image: 
 linear-gradient(
-  to bottom, 
-  transparent 10%,
-  rgba(0, 0, 0, 0.5) 50%,
-  rgba(0, 0, 0) 95%
-  );
-  opacity: 0;
-  transition: all .3s ease;
+to bottom, 
+transparent 10%,
+rgba(0, 0, 0, 0.5) 50%,
+rgba(0, 0, 0) 95%
+);
+opacity: 0;
+transition: all .3s ease;
 }
 article:hover::before {
-  opacity: 1;
+opacity: 1;
 }   
 article:hover img:last-child {
-  opacity: 1;
-  transform: translateY(10%);
+opacity: 1;
+transform: translateY(10%);
 }
 
-   
-    
-   
+
+

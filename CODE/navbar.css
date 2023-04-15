@@ -18,7 +18,7 @@
     width: 100%;
   }
   label.logo{
-    color: white;
+    color: rgba(0, 0, 0, 0.685);
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;

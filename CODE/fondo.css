@@ -1,20 +1,52 @@
+body {
+  font-family: 'Oswald', sans-serif !important;
+  min-height: 100vh;
+  background-image: radial-gradient(
+    at 81% 36%,
+    hsla(199, 98%, 68%, 1) 0px,
+    transparent 50%
+  ),
+  radial-gradient(at 61% 70%, rgb(109, 255, 146) 0px, transparent 50%),
+  radial-gradient(at 62% 99%, rgb(93, 104, 253) 0px, transparent 50%),
+  radial-gradient(at 21% 31%, rgb(108, 0, 185) 0px, transparent 50%),
+  radial-gradient(at 33% 24%, hsla(223, 83%, 79%, 1) 0px, transparent 50%),
+  radial-gradient(at 27% 78%, hsla(162, 78%, 75%, 1) 0px, transparent 50%),
+  radial-gradient(at 21% 14%, rgb(164, 113, 245) 0px, transparent 50%);
+  }
 
-h1 {
-  color: rgb(7, 6, 0);
+
+.h1-style {
+  color: rgb(0, 0, 0);
   text-align: center;
-}
+  
+  }
 
-h2 {
+.h1-stylenames{
+  color: rgb(0, 0, 255);
+  text-align: center
+  
+  }
+.h2-style {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  }
+.h2-style2 {
+  color: rgb(25, 0, 255);
+  text-align: center;
+  }
+.label-style1 {
+  font-size: 20px;
   color: rgb(0, 0, 0);
   text-align: center;
 }
-
 hr {
   color: rgb(0, 0, 0);
   text-align: center;
-}
+  border-color: rgb(49, 27, 27);
+  }
 
-table {
+.table-style1 {
+  
   color: rgb(0, 0, 0);
   text-align: center;
   border-collapse: collapse;
@@ -22,36 +54,38 @@ table {
   max-width: 400px;
   margin: 0 auto;
     }
+
     
-    table th {
+.table-style1 th {
+      border: 1px solid rgb(0, 0, 0) ;
       font-weight: bold;
       text-align: left;
       padding: 8px;
     }
     
-    table td {
+.table-style1 td {
+      border: 1px solid rgb(0, 0, 0) ;
       border-bottom: 1px solid #472727;
       padding: 8px;
     }
     
-    table h3 {
+.table-style1 h3 {
       font-size: 24px;
       margin-bottom: 16px;
     }
 
-  label {
+.labelstyletitle {
     color: rgb(0, 0, 0);
      font-size: 24px;
      text-align: center;
      }
 
 
-hr {
-  border-color: rgb(49, 27, 27);
-}
 
 title {
+    color: rgb(0, 0, 0);
      font-size: 100px;
+     font-family: 'Oswald', sans-serif;
   }
 
 form {

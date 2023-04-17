@@ -6,11 +6,11 @@ body {
     hsla(199, 98%, 68%, 1) 0px,
     transparent 50%
   ),
-  radial-gradient(at 61% 70%, rgb(109, 255, 146) 0px, transparent 50%),
+  radial-gradient(at 61% 70%, rgba(109, 255, 145, 0.452) 0px, transparent 50%),
   radial-gradient(at 62% 99%, rgb(93, 104, 253) 0px, transparent 50%),
   radial-gradient(at 21% 31%, rgb(108, 0, 185) 0px, transparent 50%),
-  radial-gradient(at 33% 24%, hsla(223, 83%, 79%, 1) 0px, transparent 50%),
-  radial-gradient(at 27% 78%, hsla(162, 78%, 75%, 1) 0px, transparent 50%),
+  radial-gradient(at 33% 24%, rgba(157, 182, 246, 0.253) 0px, transparent 50%),
+  radial-gradient(at 27% 78%, rgba(142, 241, 211, 0.384) 0px, transparent 50%),
   radial-gradient(at 21% 14%, rgb(164, 113, 245) 0px, transparent 50%);
   }
 
